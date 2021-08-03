@@ -1,0 +1,165 @@
+<html lang="en">
+    
+    <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css "/>
+
+       <link rel="stylesheet" href="Adoption.css"/>
+       <link rel="stylesheet" href="css/font-awesome.min.css"/>
+       
+        <title>Adoption</title>
+        
+    </head>
+    <body>
+        <div class="header"><!-- header is the BG and 2 divs one for the logo and one for thenavbar-->
+           <div class="content"><!--to be at the middle-->
+            <div class="logo">
+                <img src="Dogs/logo.png"/>
+            
+            <div class="nav">
+             <ul>
+                <li><a href="proj.html">Home</a></li>
+                <li><a href="Cats.html">Animals</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="team.html">Our Team </a></li>
+                <li><a href="volunteeing.html">Volunteer</a></li>
+                <li><a href="guide.html">Guide</a><!--hn7ut gwaha ul tanya-->
+                            
+              </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+        
+        <div class="container">
+          <div class="body"> 
+              
+            <pre class="adopt">
+       NOT ONLY PEOPLE NEED A HOUSE!!
+             </pre>  
+        
+         </div>
+
+
+        <div class="inf">
+         <div class="one">
+                  <img src="dogs/in.jpg" style="margin-top: 100px; margin-bottom: 100px;margin-left: 300px;width: 200px; height: 300px;">
+                  <h4 style="float: right; margin-top: 100px; margin-left: 10px; max-width: 300px;">About Our Shelter
+                   As soon as a dog or cat arrives at our facility, our staff begins searching for the perfect match  a family who is just right and will give the pet a wonderful home. While waiting for a forever home, our dogs and cats receive the best of care.
+
+Since each animals care is individualized, this may involve obedience training, a visit with the local groomer, a special blanket, or a home cooked diet. </h4>
+         </div>
+         
+ <div class="mySlides fade">
+  
+  <img src="dogs/IMG_0112_edit1_0 (2).jpg" style="width:300px; height: 400px; margin-left: 530px;">
+<br>
+<p  style="text-align: center; font-size: 30px;">Woody</p>
+  <p  style="text-align: center;"></p>
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="dogs/alvan-nee-259129-unsplash (2).jpg" style="width:300px; height: 400px; margin-left: 530px;">
+<br>
+<p  style="text-align: center; font-size: 30px; max-width: ">Puppsy</p>
+  <p  style="text-align: center;"></p>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="dogs/grey.jpg" style="width:300px; height: 400px; margin-left: 530px;">
+<br>
+<p  style="text-align: center; font-size: 30px;">Kitty</p>
+  <p  style="text-align: center;"></p>
+</div>
+<div class="mySlides fade">
+  
+  <img src="dogs/cairn-terrier-2765416_960_720.jpg" style="width:300px; height: 400px; margin-left: 530px; ">
+<br>
+<p  style="text-align: center; font-size: 30px;">Wiskey</p>
+  <p  style="text-align: center;"></p>
+   
+ </div>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+
+  <br>
+  <a class="prev"  style="margin-left:0px;"onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" style="margin-left: 90px;" onclick="plusSlides(1)">&#10095;</a>
+</div>
+</div>
+
+     <div class="three" style="background-color: white;">
+             <img src="dogs/puppy.jpg" style="margin-top: 100px; margin-bottom: 100px;margin-left: 300px;width: 200px; height: 300px;"> 
+              <h3 style="float: right; margin-top: 100px; margin-left: 10px; max-width: 200px;">In addition you can make a donation<br> <a href="don.html"><button class="buton">Donate</button></h3></a>
+                 
+        </div>
+
+
+   
+      
+        </div>
+
+<div class="about">
+                <h3><a href="about.html">About us</a></h3>
+                <pre>
+Aliquam nec nunc volutpat laoreet.Nam in faucibus at, fermentum leo
+at ligula. Mauris leo. Etiam nibh nulla quis tortor. Cum sociis natoque
+penatibus et lacus sed lacus.In tristique senectus et nisl. Nam at purus.</pre>
+        
+        <div class="i">
+            <i class="fa fa-facebook-square fa-2x"></i>
+            <i class="fa fa-google-plus-square fa-2x"></i>
+            <i class="fa fa-twitter-square fa-2x" ></i>
+            <i class="fa fa-pinterest-square fa-2x"></i>
+            <i class="fa fa-linkedin-square fa-2x"></i>
+       </div>
+    
+ </div>
+     <div class="contact">
+        <h3><a href="contact us.html">Contact Us </a></h3>
+        <pre>
+ Lorem ipsum dolor sit amet leo
+ sodales nulla pulvinar vitae,
+ pellentesque purus, congue fringilla lorem, pretium wisi.           
+        
+        </pre>
+       <div class="ii"><i class="fa fa-phone">+2234596843</i></div>
+
+     </div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+    </body>
+</html>

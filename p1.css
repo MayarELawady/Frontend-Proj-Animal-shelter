@@ -1,0 +1,323 @@
+
+
+*{ 
+Padding:0; 
+Margin:0;}
+*
+ {
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h3 {
+ text-align: center;
+}
+
+.row2 {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row2,
+.row2 > .column2 {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content22 {
+    background-color: #fff6d1;
+    padding: 10px;
+}
+.content22 img {
+    background-color: #fef4a9;
+    border-radius: 10%;
+    border: 2px solid brown;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column2 {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column2 {
+        width: 100%;
+    }
+}
+.collapse-group {
+    border: 1px solid #000;
+    border-radius: .5em;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #fbe1b6;
+}
+.collapse-item {
+    border-bottom: 1px solid #000;
+}
+
+.collapse-item:last-child {
+    border-bottom: none;
+}
+
+.collapse-head {
+    padding: 1em;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.collapse-head:hover {
+    text-decoration: underline;
+}
+
+.collapse-content {
+    max-height: 0;
+    transition: max-height .4s;
+    overflow: hidden;
+}
+
+.collapse-content>* {
+    margin-left: 1em;
+    margin-top: 0;
+}
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 1em;
+    font-family: sans-serif;
+}
+.container2 {
+    max-width: 960px;
+    font-family: sans-serif;
+   padding-left: 50px;
+   padding-right: 50px;
+    padding-bottom: 10px;
+   
+}
+
+
+.serimg img
+{
+  border-radius: 50%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.column img {
+  border-radius: 50%;
+ border-bottom-style: solid;
+}
+
+
+.column
+{ width: 200px;
+  height: 200px;
+
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    padding: 5px;
+}
+
+
+.spa
+{
+ text-align: center; 
+}
+
+.grooming h2{
+ padding-top: 100px;
+  border: 2px solid brown;
+     
+    border-radius: 100px;
+    border-width: 5px;
+    padding:  0em 1em;
+    border-radius: 16px;
+
+    line-height: 2;
+}
+
+.grooming
+{
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+.grooming img
+{
+ width: 90%;
+ height: 350px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.grooming h1
+{  padding-top: 80px;
+
+ text-align: center;
+}
+
+body
+{
+  background-color: #fff6d1;
+}
+.content
+{ 
+    width: 1500px;
+    margin: auto;/*to be at the middle of the page*/
+    position: fixed;
+     width: 100%;
+    height: 56px;
+    background-color: #1c110b;
+    border-top: 1.5px solid #e4ac01;
+    border-bottom: 2px solid #e4ac01;
+    z-index: 9999999;
+    
+}
+.header
+{ top: 0;
+position: fixed;
+    width: 100%;
+    height: 53px;
+    background-color: #170e09;
+ 
+ border-bottom: 2px solid #e4ac01;
+}
+.header.logo/*logo eli gwa l header*/
+{
+    float: left;
+    width: 1600px;
+  }
+.header .logo img
+{
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+    
+}
+.header .nav
+{
+  float: right;
+  
+}
+ul
+{
+    list-style-type:none;
+   
+}
+.header .nav ul li/*nesting*/
+{
+    float: left;/* left 3ashan l home tegy l awel*/
+    padding: 10px;
+    margin-top:0px;
+    
+}
+.header .nav ul li a
+{ 
+    font-size: 18px;
+    font-family: Cursive;
+    color: #c1b8ae;
+    text-decoration: none;/*delete line*/ 
+}
+.header .nav ul li a:hover
+{  background-color: #2e1c11;
+  color: #e4ac01;
+}
+.about
+{padding-top:0; 
+ height: 300px;
+ width: 50%;
+ background-color:#1f130c; 
+ float:left;
+ 
+}
+.about h3 a{
+ text-decoration: none;
+ font-size:25px;
+ color:#dcd0c3;
+ margin-left:10%;
+ font-family:cursive;
+}
+.about h3 a:hover
+{
+  color:#e1a401;
+}
+.about pre
+{
+ color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+}
+.i{
+ margin-left:10%;
+ color:#9c926c;
+ cursor:pointer;
+}
+.i i:hover
+{
+ color:#e1a401;
+}
+.contact
+{
+ width:50%;
+ height:300px;
+float:left;
+  background-color:#1f130c;
+  
+}
+.contact h3 a{
+text-decoration: none;
+ font-size:25px;
+ color:#dcd0c3;
+ margin-left:10%;
+ font-family:cursive;
+}
+.contact h3 a:hover
+{
+ color:#e1a401;
+}
+.contact pre
+{
+  color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+}
+.ii
+{
+   color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+ cursor:pointer;
+}
+.ii i:hover
+{
+  color:#e1a401;
+}

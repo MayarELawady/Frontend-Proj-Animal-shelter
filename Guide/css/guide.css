@@ -1,0 +1,353 @@
+body
+{
+    margin:0;
+    height:4900px;
+}
+.content
+{
+    width: 1200px;
+    margin: auto;/*to be at the middle of the page*/
+    position: fixed;
+     width: 100%;
+    height: 53px;
+    background-color: #1c110b;
+    border-top: 1.5px solid #e4ac01;
+    border-bottom: 2px solid #e4ac01;
+    z-index: 9999999;
+    
+}
+.header
+{
+    width: 100%;
+    height: 53px;
+    background-color: #170e09;
+   
+ border-bottom: 2px solid #e4ac01;
+}
+.header.logo/*logo eli gwa l header*/
+{
+    float: left;
+  }
+.header .logo img
+{
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+    
+}
+.header .nav
+{
+  float: right; 
+}
+ul
+{
+    list-style-type:none;
+    margin-top:1%;
+    margin-right:44px;
+    
+}
+.header .nav ul li/*nesting*/
+{
+    float: left;/* left 3ashan l home tegy l awel*/
+    padding: 10px;
+    margin-top:0px;
+    
+}
+.header .nav ul li a
+{
+    font-size: 18px;
+    font-family: Cursive;
+    color: #c1b8ae;
+    text-decoration: none;/*delete line*/ 
+}
+.header .nav ul li a:hover
+{  background-color: #2e1c11;
+  color: #e4ac01;
+}
+.bodyy
+{background-color:#f3e7e1; 
+height: 600px;
+
+}
+.imgg
+{
+    margin-left:10%;
+}
+.bodyy pre
+{
+    float:right;
+    font-size:60px;
+    font-weight: bold;
+    font-family: 'Gamja Flower', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    right:10%;
+    top:18%;
+    color:#65331f;
+   
+}
+.if
+{   float: left;
+     width:100%;
+    height:250px;
+    background-color:#65331f;
+}
+.if p
+{
+    font-size: 17px;
+    font-family:cursive;
+    color:#dcd0c3;
+    margin-left:8%;
+    margin-top:5%;
+}
+i
+{color:#dcd0c3;}
+.bath
+{
+     float: right;
+     width:100%;
+    height:700px;
+    background-color:#d6cbc5;
+}
+.bath .bathh3
+{
+     text-align: center;
+    font-size: 50px; 
+    text-transform: uppercase;
+    color: #65331f;
+    font-family: 'Gamja Flower', cursive;
+    clear: both;
+    margin-left: 10%;
+    
+    
+}
+.bath p
+{
+    margin-left:10%;
+    font-size: 45px;
+    font-family: 'Gamja Flower', cursive;
+    text-transform: uppercase;
+    color:#65331f;
+    
+}
+.bath img
+{
+    float:right;
+    margin-right:2%;
+}
+.bath pre
+{
+    font-size: 20px;
+    font-family:cursive;
+    color: #65331f;
+}
+.shampo
+{
+ height:600px;
+ background-color:#dcc8b1;
+ float:left;
+ width: 100%;
+}
+.shampo img
+{
+ 
+ float:left;
+ 
+}
+.shampo pre
+{
+ margin-right:10%;  
+}
+.where
+{float:left;
+ background-color:#ffece3;
+ height:800px;
+ width: 100%;
+}
+.where.wheere
+{
+ border-radius: 3px;
+}
+.where i
+{
+ color:#65331f;
+}
+.where .h2
+{
+ font-size:30px;
+ font-family: 'Gamja Flower', cursive;
+ color:#65331f;
+ margin-left:5%;
+ text-decoration: underline;
+ text-transform: uppercase;
+}
+.where .wherep
+{ font-size:18px; 
+ margin-left:3%;
+ font-family:cursive;
+ text-transform: capitalize;
+}
+
+.enjoy
+{
+ height: 500px;
+ background-color:#fde0a4;
+ float:left;
+ width:100%;
+ height:700px;
+}
+.enjoy p
+{
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: bold;
+ font-size: 55px;
+}
+.enjoy .imp
+{text-align: left;
+ text-transform: uppercase;
+ font-size: 30px;
+ margin-left: 3%;
+ text-decoration: underline;}
+ .enjoy .two
+ {
+  margin-left:3%;
+ }
+ .enjoy i{
+  color:#65331f;
+ }
+ .enjoy img
+ {
+  float:right;
+  margin-left: 5%;
+ }
+ .drying
+ {
+  height:600px;
+  background-color:#e0cc97c4;
+  float: left;
+  width:100%;
+ }
+ .drying p
+ {
+  text-align: center;
+  text-transform: uppercase;
+  font-size:55px;
+  font-weight:bold;
+ }
+ .drying .ques{
+  text-transform: none;
+  font-size:30px;
+  margin-left: 3%;
+  font-weight: normal;
+  font-family:cursive;
+ }
+ .drying .answer
+ {
+  margin-left:2%;
+  font-size:20px;
+
+ }
+ .prep
+ {float:left;
+ width:100%;
+  height: 400px;
+  background-color:#65331f;
+ }
+ .prep .preppre
+ {
+  margin-left: 2%;
+  margin-top:3%;
+  color: #dcd0c3;
+ }
+ .prep h5
+ {
+  font-size:25px;
+  font-family:cursive;
+  color:#c5ba8d;
+  margin-left:9%;
+ }
+ .prep h5 a
+ {
+  text-decoration:none;
+  color:#c5ba8d;
+  font-weight: bold;
+  }
+  .prep h5 a:hover
+  {
+   color: #1f130c;
+  }
+ .about
+{padding-top:0; 
+ height: 350px;
+ width: 50%;
+ background-color:#1f130c; 
+ float:left;
+}
+.about .abouth3 a{
+ text-decoration: none;
+ font-size:25px;
+ color:#dcd0c3;
+ font-family:cursive;
+ text-align: left;
+ text-transform: capitalize;
+ margin-left:10%;
+}
+.about .abouth3 a:hover
+{
+  color:#e1a401;
+}
+.about pre
+{
+ color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+}
+.i{
+ margin-left:10%;
+ color:#9c926c;
+ cursor:pointer;
+}
+.i i:hover
+{
+ color:#e1a401;
+}
+.contact
+{
+ width:50%;
+ height:350px;
+float:left;
+  background-color:#1f130c; 
+}
+.contact .contacth3 a{
+text-decoration: none;
+ font-size:25px;
+ color:#dcd0c3;
+ font-family:cursive;
+ text-align: left;
+ text-transform: capitalize;
+ margin-left: 10%;
+ 
+}
+.contact .contacth3 a:hover
+{
+ color:#e1a401;
+}
+.contact pre
+{
+  color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+}
+.ii
+{
+   color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+ cursor:pointer;
+}
+.ii i:hover
+{
+  color:#e1a401;
+}

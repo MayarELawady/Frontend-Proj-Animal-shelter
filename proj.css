@@ -1,0 +1,267 @@
+body/*Because body margin default is 8px*/
+{  
+    margin: 0;
+    height: 1800px;
+}
+.content
+{
+    width: 1200px;
+    margin: auto;/*to be at the middle of the page*/
+    position: fixed;
+     width: 100%;
+    height: 53px;
+    background-color: #1c110b;
+    border-top: 1.5px solid #e4ac01;
+    border-bottom: 2px solid #e4ac01;
+    z-index: 9999999;
+    
+}
+.header
+{
+    width: 100%;
+    height: 53px;
+    background-color: #170e09;
+   
+ border-bottom: 2px solid #e4ac01;
+}
+.header.logo/*logo eli gwa l header*/
+{
+    float: left;
+  }
+.header .logo img
+{
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+    
+}
+.header .nav
+{
+  float: right; 
+}
+ul
+{
+    list-style-type:none;
+    margin-right: 44px;
+    margin-top: 1%
+    
+}
+
+.header .nav ul li/*nesting*/
+{
+    float: left;/* left 3ashan l home tegy l awel*/
+    padding: 10px;
+    margin-top:0px;
+    
+}
+.header .nav ul li a
+{
+    font-size: 18px;
+    font-family: Cursive;
+    color: #c1b8ae;
+    text-decoration: none;/*delete line*/ 
+}
+.header .nav ul li a:hover
+{  background-color: #2e1c11;
+  color: #e4ac01;
+}
+
+.body{
+  background-image: url(dogs/BG.jpg) ;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  margin: 0px;
+  
+}
+pre.help
+{   
+    font-size: 20px;
+    color: #fff2cc;
+    opacity: .9;
+    font-size: 48px;
+    margin: 0px;
+    position: absolute;
+    top:40%;
+    left: -20px;
+    font-family: cursive;
+    
+}
+.buttun
+{     background-color: #e5a700;
+      border: none;
+      border-radius: 7px;
+      color: #30231a;
+      width: 160px;
+      height:40px;
+      font-size: 15px;
+      font-weight: bold;
+      font-family: cursive;
+       position: absolute;
+           top:75%;
+           left: 13%;
+           cursor: pointer;
+}
+.buttun:hover
+{
+ background-color: #c79202;
+}
+.caption
+{    font-size:13px;
+    color: #fff2cc;
+    opacity: .5;
+    position: absolute;
+    top:80%;
+     left:6%;
+}
+p{
+    font-size:30px;
+    color: #fff2cc;
+    opacity: .5;
+    position: absolute;
+    top: 700px;
+     left: 5%;
+     font-family: cursive;
+    
+
+
+}
+.details
+{
+    background-color:#433728;
+    color:#a19b94;
+    border:none;
+    border-radius: 5px; 
+    position: absolute;
+    top: 750px;
+     right: 5%;
+     height: 40px;
+     width:110px;
+     cursor:pointer;
+}
+.details:hover
+{
+    background-color: #523b32;
+}
+
+.base
+{
+ background-color: white;
+ height:400px;
+ width: 80%;
+ margin: auto;
+}
+.img{
+ background-color: #f1f1f1;
+ width :150px;
+ height: 200px;
+ float: left;
+ margin: 5% ;
+
+}
+.img img {
+ margin:20%;
+}
+.num{
+ background-color: #e5a700;
+ width :50px;
+ height: 50px;
+ float: left;
+ margin: 10% ;
+ font-size:35px;
+ color:white;
+ text-align: center;
+ position: relative;
+ bottom:43%;
+}
+.pre{
+ float:left;
+ width : 24%;
+ position: relative;
+ bottom:45%;
+ left :0%;
+ }.pre pre
+ {
+   color:  #919597;
+ font-family:cursive;
+ font-size:16px;
+ }
+ h4
+ {
+
+  font-size: 20px;
+  color:#4b5864;
+  font-family:cursive;
+  font-weight:bold;
+  position:relative;
+  left:30%;
+  margin:0;
+ }
+ .about
+{padding-top:0; 
+ height: 300px;
+ width: 50%;
+ background-color:#1f130c; 
+ float:left;
+}
+.about h3 a{
+ text-decoration: none;
+ font-size:25px;
+ color:#dcd0c3;
+ margin-left:10%;
+ font-family:cursive;
+}
+.about h3 a:hover
+{
+  color:#e1a401;
+}
+.about pre
+{
+ color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+}
+.i{
+ margin-left:10%;
+ color:#9c926c;
+ cursor:pointer;
+}
+.i i:hover
+{
+ color:#e1a401;
+}
+.contact
+{
+ width:50%;
+ height:300px;
+float:left;
+  background-color:#1f130c; 
+}
+.contact h3 a{
+text-decoration: none;
+ font-size:25px;
+ color:#dcd0c3;
+ margin-left:10%;
+ font-family:cursive;
+}
+.contact h3 a:hover
+{
+ color:#e1a401;
+}
+.contact pre
+{
+  color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+}
+.ii
+{
+   color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+ cursor:pointer;
+}
+.ii i:hover
+{
+  color:#e1a401;
+}

@@ -1,0 +1,260 @@
+body
+{margin:0px;
+height:1500px;
+background-image:url(../images/star.png);
+     background-color: #ece4db;
+
+width:100%;
+background-size:cover;
+}
+
+
+.content
+{
+    width: 1200px;
+    margin: auto;/*to be at the middle of the page*/
+    position: fixed;
+     width: 100%;
+    height: 53px;
+    background-color: #1c110b;
+    border-top: 1.5px solid #e4ac01;
+    border-bottom: 2px solid #e4ac01;
+    z-index: 9999999;
+    
+}
+.header
+{
+    width: 100%;
+    height: 53px;
+    background-color: #170e09;
+   
+ border-bottom: 2px solid #e4ac01;
+}
+.header.logo/*logo eli gwa l header*/
+{
+    float: left;
+  }
+.header .logo img
+{
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+	
+    
+}
+
+.kalb
+{position:relative;
+left:0px;}
+
+.header .nav
+{
+  float: right; 
+}
+ul
+{
+    list-style-type:none;
+    margin-top: 1%;
+    
+    margin-right: 44px;
+    
+}
+.header .nav ul li/*nesting*/
+{
+    float: left;/* left 3ashan l home tegy l awel*/
+    padding: 10px;
+    margin-top:0px;
+    
+}
+.header .nav ul li a
+{
+    font-size: 18px;
+    font-family: Cursive;
+    color: #c1b8ae;
+    text-decoration: none;/*delete line*/ 
+}
+.header .nav ul li a:hover
+{  background-color: #2e1c11;
+  color: #e4ac01;
+}
+
+
+
+
+.about
+{padding-top:0; 
+ height: 300px;
+ width: 50%;
+ background-color:#1f130c; 
+ float:left;
+ position:absolute;
+top:1500px;
+ 
+}
+.about h3 a{
+ text-decoration: none;
+ font-size:25px;
+ color:#dcd0c3;
+ margin-left:10%;
+ font-family:cursive;
+}
+.about h3 a:hover
+{
+  color:#e1a401;
+}
+.about pre
+{
+ color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+}
+.i{
+ margin-left:10%;
+ color:#9c926c;
+ cursor:pointer;
+ position:absolute;
+ top:192px;
+}
+.i i:hover
+{
+ color:#e1a401;
+}
+.contact
+{
+ width:55.7%;
+ height:300px;
+float:left;
+  background-color:#1f130c;
+  position:absolute;
+top:1500px;
+  left:673px;
+}
+.contact h3 a{
+text-decoration: none;
+ font-size:25px;
+ color:#dcd0c3;
+ margin-left:10%;
+ font-family:cursive;
+}
+.contact h3 a:hover
+{
+ color:#e1a401;
+}
+.contact pre
+{
+  color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+}
+.ii
+{
+   color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+ cursor:pointer;
+}
+.ii i:hover
+{
+  color:#e1a401;
+}
+
+
+
+
+
+
+@keyframes gallery{
+	0% {
+		left: 0;}
+		
+	20% {
+	left : 0;}
+	
+	25%{
+	left : -100% }
+	
+	45%{
+	left : -100% }
+	
+	50%{
+	left : -200% }
+	
+	70%{
+	left : -200% }
+
+
+	75%{
+	left : -300% }
+
+
+	95%{
+	left : -400% }
+
+	100%{
+	left : -400% }
+}
+
+.gallery
+{overflow:hidden;
+}
+
+.gallery figure img
+{width:20%;
+float:left;
+height:100%}
+
+.gallery figure{
+	position:relative;
+	width:500%;
+	margin:0;
+	left:0;
+	text-align:left;
+	font-size:0;
+animation: 20s gallery infinite;}
+	
+.gallery {position:absolute;
+}	
+
+
+.blogs
+{    background-color: #e5a700;
+    color: #523424;
+    font-size: 32px;
+    font-family: cursive;
+    height: 100px;
+    width: 350px;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    top: 1100px;
+    left: 900px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.BG
+{
+background-color:#e5a700ad;
+position:absolute;
+top:900px;
+left:50px;
+width:50%;
+border-radius:60px;
+height:500px;}
+
+
+
+.know {
+    font-size: 32px;
+    font-family: cursive;
+    color: #523424;
+    position: absolute;
+    top: 1000px;
+    left: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+

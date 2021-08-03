@@ -1,0 +1,327 @@
+body
+{
+    margin: 0%;
+height:1500px;
+    background: url(images/adapt2.jpg) repeat fixed;
+    
+  
+    padding: 0%;
+}
+.content
+{
+    width: 1200px;
+    margin: auto;/*to be at the middle of the page*/
+    position: fixed;
+     width: 100%;
+    height: 53px;
+    background-color: #1c110b;
+    border-top: 1.5px solid #e4ac01;
+    border-bottom: 2px solid #e4ac01;
+    z-index: 9999999;
+    
+}
+.header
+{
+    width: 100%;
+    height: 53px;
+    background-color: #170e09;
+ 
+ border-bottom: 2px solid #e4ac01;
+}
+.header.logo/*logo eli gwa l header*/
+{
+    float: left;
+  }
+.header .logo img
+{
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+    
+}
+.header .nav
+{
+  float: right; 
+}
+ul
+{
+    list-style-type:none;
+	margin-top:1%;
+	margin-right:44px;
+    
+}
+.header .nav ul li/*nesting*/
+{
+    float: left;/* left 3ashan l home tegy l awel*/
+    padding: 10px;
+    margin-top:0px;
+    
+}
+.header .nav ul li a
+{
+    font-size: 18px;
+    font-family: Cursive;
+    color: #c1b8ae;
+    text-decoration: none;/*delete line*/ 
+}
+.header .nav ul li a:hover
+{  background-color: #2e1c11;
+  color: #e4ac01;
+}
+.body
+{
+ height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.body .adapt
+{
+    background-color: #f7f0e8ab;
+    height: 135px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 11%;
+    border-radius: 44px;
+    opacity: 1.6;
+}
+
+
+
+.body .adapt .adaptp
+{
+    color: #40322b;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4%;
+}
+fieldset
+{
+     margin-right: 41%;
+     border:3px solid #40322b;
+	    border-radius:8px;
+     margin-left: 3%;
+    background-color: #f7f0e8ab;
+
+
+
+}
+legend
+{
+     font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #40322b;
+    text-transform: uppercase;
+}
+
+.input {
+    padding: 1%;
+    width: 35%;
+    border: 2px solid #40322b;
+    color: #2f231c;
+    font-family: cursive;
+    font-size: 15px;
+}
+.email
+{
+padding: 1%;
+    width: 521px;
+    border: 2px solid #40322b;
+    color: #2f231c;
+    font-family: cursive;
+    font-size: 15px;
+}
+.msg
+{
+ padding: 30px;
+    border: 2px solid #40322b;
+    color: #2f231c;
+    font-family: cursive;
+    font-size: 15px;
+    
+    width: 478px;
+}
+.submit
+{
+      width: 309px;
+    background-color: #e5a700;
+    border: none;
+    color: #40322b;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 23px;
+    margin-left: 13%;
+}
+.adapt1
+{
+     width: 39%;
+    margin-left: 19%;
+    margin-top: 2%;
+   height:31%;
+
+}
+.service
+{
+     background-color: #d6cec4;
+    height: 24%;
+    margin-top: 6%;
+}
+.service .serviceh3{
+     font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 7%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #40322b;
+        padding: 3%;
+            margin-bottom: 0;
+
+}
+.service .serviceul
+{
+ list-style-type: disc;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #40322b;
+    margin-left: 18%;
+    float: left;
+     
+}
+
+.service .serviceul a{
+ color: #773815;
+ 
+    
+}
+.service .whyp
+{
+     margin: 0;
+    clear: both;
+    text-align: center;
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #40322b;
+    text-transform: uppercase;
+}
+.service .why
+{
+     color: #40322b;
+
+}
+.end
+{
+width: 100%;
+    height: 253px;
+    margin-top: 32%;
+    background-color: #d6cec4;
+    float: left;
+    margin-bottom: 5%;
+}
+.icon
+{
+ float: left;
+     padding: 2%;
+
+}
+.end i
+{
+    color: #3c2d25;
+    margin-left: 14%;
+    margin-top: 6%;
+    
+    }
+    .end h4
+    {
+      margin: 0;
+    margin-left: 17%;
+    font-size: 20px;
+    font-family: cursive;
+    color: #773815;
+    
+
+    }
+    .end a
+    {
+         margin-left: 17%;
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: bold;
+    text-decoration: none;
+    color: #773815;
+    
+    }
+.about
+{padding-top:0; 
+ height: 300px;
+ width: 50%;
+ background-color:#1f130c; 
+ float:left;
+}
+.about h3 a{
+ text-decoration: none;
+ font-size:25px;
+ color:#dcd0c3;
+ margin-left:10%;
+ font-family:cursive;
+}
+.about h3 a:hover
+{
+  color:#e1a401;
+}
+.about pre
+{
+ color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+}
+.i{
+ margin-left:10%;
+ color:#9c926c;
+ cursor:pointer;
+}
+.i i:hover
+{
+ color:#e1a401;
+}
+.contact
+{
+ width:50%;
+ height:300px;
+float:left;
+  background-color:#1f130c; 
+}
+.contact h3 a{
+text-decoration: none;
+ font-size:25px;
+ color:#dcd0c3;
+ margin-left:10%;
+ font-family:cursive;
+}
+.contact h3 a:hover
+{
+ color:#e1a401;
+}
+.contact pre
+{
+  color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+}
+.ii
+{
+   color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+ cursor:pointer;
+}
+.ii i:hover
+{
+  color:#e1a401;
+}

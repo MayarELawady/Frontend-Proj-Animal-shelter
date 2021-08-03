@@ -1,0 +1,242 @@
+body/*Because body margin default is 8px*/
+{  
+    margin: 0;
+    min-height: 1800px;
+    
+}
+.content
+{
+    width: 1200px;
+    margin: auto;/*to be at the middle of the page*/
+    position: fixed;
+     width: 100%;
+    height: 53px;
+    background-color: #1c110b;
+    border-top: 1.5px solid #e4ac01;
+    border-bottom: 2px solid #e4ac01;
+    z-index: 9999999;
+    
+}
+.header
+{
+    width: 100%;
+    height: 53px;
+    background-color: #170e09;
+   
+ border-bottom: 2px solid #e4ac01;
+}
+.header.logo/*logo eli gwa l header*/
+{
+    float: left;
+  }
+.header .logo img
+{
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+    
+}
+.header .nav
+{
+  float: right; 
+}
+ul
+{
+    list-style-type:none;
+    margin-right: 44px;
+    margin-top: 1%
+    
+}
+
+.header .nav ul li/*nesting*/
+{
+    float: left;/* left 3ashan l home tegy l awel*/
+    padding: 10px;
+    margin-top:0px;
+    
+}
+.header .nav ul li a
+{
+    font-size: 18px;
+    font-family: Cursive;
+    color: #c1b8ae;
+    text-decoration: none;/*delete line*/ 
+}
+.header .nav ul li a:hover
+{  background-color: #2e1c11;
+  color: #e4ac01;
+}
+.body
+{
+    background:url("../images/bad.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 850px;
+    margin:0;
+}
+p.products
+{
+    font-size: 90px;
+    color: #fff2cc;
+    opacity: .9;
+    margin: 0px;
+    position: absolute;
+    top:15%;
+    left:60px;
+    font-weight: bold;
+    font-family:cursive ;
+}
+.buttun
+{     background-color:#e5a700;
+      border: none;
+      border-radius: 7px;
+      color:#30231a;
+      width: 320px;
+      height:130px;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: cursive;
+      position: absolute;
+      top:40%;
+      left:100px;
+      cursor: pointer;
+}
+.buttun:hover
+{
+ background-color:#c79202;
+}
+.buttun2
+{     background-color:#e5a700;
+      border: none;
+      border-radius: 7px;
+      color:#30231a;
+      width: 320px;
+      height:130px;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: cursive;
+      position: absolute;
+      top:70%;
+      left:100px;
+      cursor: pointer;
+}
+.buttun2:hover
+{
+ background-color:#c79202;
+}
+
+.paragraph 
+{
+    min-height: 600px;
+    
+}
+p.textproduct
+{
+    font-size: 45px;
+    color:#e5a700 ;
+    margin: 0px;
+    position: absolute;
+    top:990;
+    left:50px;
+    font-family:cursive ;
+}
+pre.detalisproduct
+{
+    font-size: 16px;
+    color:#94989a;
+    margin: 0px;
+    position: absolute;
+    top:1070px;
+    left:-20px;
+    font-family:cursive ;
+}
+.buby-img
+{
+    position: absolute; /* to have the full access to adjust left and right attributes */
+    left: 1000;
+    right:-200;
+    top: 1000;
+    width: 500px; /* you can adjust the width of the image as yo like */
+    float:left; 
+}
+p.hurry
+{
+    font-size: 45px;
+    color:#e5a700 ;
+    margin: 0px;
+    position: absolute;
+    top:1350;
+    left:40px;
+    font-family:cursive ;
+    text-transform:uppercase;
+}
+.about
+{
+ padding-top:0; 
+ height: 300px;
+ width: 50%;
+ background-color:#1f130c; 
+ float:left;
+}
+.about h3 a{
+ text-decoration: none;
+ font-size:25px;
+ color:#dcd0c3;
+ margin-left:10%;
+ font-family:cursive;
+}
+.about h3 a:hover
+{
+  color:#e1a401;
+}
+.about pre
+{
+ color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+}
+.i{
+ margin-left:10%;
+ color:#9c926c;
+ cursor:pointer;
+}
+.i i:hover
+{
+ color:#e1a401;
+}
+.contact
+{
+ width:50%;
+ height:300px;
+float:left;
+  background-color:#1f130c; 
+}
+.contact h3 a{
+text-decoration: none;
+ font-size:25px;
+ color:#dcd0c3;
+ margin-left:10%;
+ font-family:cursive;
+}
+.contact h3 a:hover
+{
+ color:#e1a401;
+}
+.contact pre
+{
+  color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+}
+.ii
+{
+   color:#9c926c;
+ margin-left:10%;
+ font-family:cursive;
+ cursor:pointer;
+}
+.ii i:hover
+{
+  color:#e1a401;
+}
+
